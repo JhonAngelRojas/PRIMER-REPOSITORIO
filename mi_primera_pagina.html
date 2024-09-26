@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Agenda Interactiva</h1>
+    
+    <!-- Formulario para agregar eventos -->
+    <form id="eventoForm">
+        <input type="text" id="nombreEvento" placeholder="Título del evento" required>
+        <input type="date" id="fechaEvento" required>
+        <button type="submit">Agregar Evento</button>
+    </form>
+    
+    <!-- Contenedor para la lista de eventos -->
+    <div>
+        <h2>Lista de Eventos</h2>
+        <ul id="listaEventos"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
